@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Algo Expert</title>
+      <style type = "text/css">
+           body {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-size: 3em;
+            color:rgb(21, 1, 107)
+        }
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            color:rgb(21, 1, 107);
+         }
+         p {
+             font-size: 1.5em;
+         }
+         button{
+            background-color:blue;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 1em;
+            cursor: pointer;
+         }
+        .row {
+            transform: translate(0%, 10%);
+        }
+        
+           .column {
+        float: left;
+        }
+          .left-half{
+        text-align: center;
+        width:50%;
+
+        }
+        .right-half{
+            text-align: left;
+        width: 50%;
+        transform: translate(0%, -7%);
+        }
+        .navbar {
+  overflow: hidden;
+  background-color:blue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 2em;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+      </style>
+   </head>
+
+   <body>
+    <h1>GaterShop</h1>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="Team.html">Team</a>
+        <div class="dropdown">
+          <button class="dropbtn"> Services 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Online Courses</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a href="https://www.uhd.edu/Pages/home.aspx">UHD</a>
+      </div>
+      
+       <h2>Algo Expert</h2>
+       <div class="row">
+         <div class = "column left-half">
+            <a href="https://www.algoexpert.io/product"> 
+            <img src = "AlgoExpert.png" width = "533" height = "300" alt = "Algo Expert">  
+            </a>
+         </div>
+         <div class = "column right-half">
+            <p>The ultimate resource to prepare for coding interviews</p>
+            <p>Ace the Technical Interview</p>
+            <p>Coding Interview Questions</p>
+            <p>Data structure Crash Course</p>
+            <p>Coding interview Assessments</p>
+            <p>Mock coding Interview</p>
+            <p>Coding Interview Tips</p>
+            <p><button onclick="window.location.href = 'https://www.algoexpert.io/product';">
+                Purchase
+            </button>
+             </p>
+         </div>
+      </div>
+   </body>
+</html>
